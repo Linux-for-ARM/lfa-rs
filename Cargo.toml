@@ -14,5 +14,7 @@ panic = "abort"
 opt-level = "s"
 
 [dependencies]
+colored = "2.1.0"
+rand = "0.8.5"
 serde = { version = "1.0.199", features = ["derive"] }
 toml = "0.8.12"
